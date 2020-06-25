@@ -14,11 +14,32 @@
     "react-native",
     "mp4"
   ],
-  "author": "yuanzhou.xu",
-  "email": "635043894@qq.com",
+  "peerDependencies": {
+    "react-native": ">=0.40"
+  },
+  "author": "Yamill Vallecillo <yamill@gmail.com> (github.com/yamill)",
+  "contributors": [
+    {
+      "name" : "1823105945@qq.com",
+      "email" : "1823105945@qq.com",
+      "url" : "https://github.com"
+    },
+    {
+      "name" : "1823105945@qq.com",
+      "email" : "1823105945@qq.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xuyuanzhou/react-native-yz-vlcplayer.git"
+    "url": "git+https://github.com/1823105945/playerView.git"
   },
   "license": "MIT"
+  "rnpm": {
+    "android": {
+      "packageInstance": "new RCTVLCPlayer()"
+    },
+    "ios": {
+      "project": "ios/RCTVLCPlayer.xcodeproj"
+    }
+  }
 }
