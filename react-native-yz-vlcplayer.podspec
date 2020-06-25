@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.description    = package['description']
   s.license        = package['license']
   s.author         = package['author']
-  s.source         = { :git => 'https://github.com/xuyuanzhou/react-native-yz-vlcplayer.git', :tag => s.version }
+  s.source         = { :git => 'https://github.com/1823105945/playerView.git', :tag => s.version }
 
   s.requires_arc   = true
   s.platform       = :ios, '7.0'
